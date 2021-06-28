@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
         //ADD버튼을 클릭한 경우
         main_button.setOnClickListener{
             val intent = Intent(this, AddActivity::class.java)
-            startActivity(intent)error
+            startActivity(intent)
         }
     }
 
